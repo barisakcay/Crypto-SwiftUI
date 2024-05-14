@@ -36,7 +36,3 @@ struct AllCoinsView: View {
         }
     }
 }
-
-//#Preview {
-//    AllCoinsView(viewModel: HomeViewModel)
-//}

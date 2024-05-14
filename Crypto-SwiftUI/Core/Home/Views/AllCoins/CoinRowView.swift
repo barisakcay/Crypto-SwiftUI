@@ -51,15 +51,11 @@ struct CoinRowView: View {
         }
         .padding()
         .overlay(
-        RoundedRectangle(cornerRadius: 2)
-            .stroke(Color(.systemGray4), lineWidth: 1)
-            .background(Color("ItemBackgroundColor"))
+            RoundedRectangle(cornerRadius: 2)
+                .stroke(Color(.systemGray4), lineWidth: 1)
+                .background(Color("ItemBackgroundColor"))
         )
         .padding(.horizontal)
         .padding(.vertical, 4)
     }
 }
-
-//#Preview {
-//    CoinRowView(coin: CoinModel)
-//}

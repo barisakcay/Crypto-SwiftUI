@@ -26,7 +26,3 @@ struct TopMoversView: View {
         .padding()
     }
 }
-//
-//#Preview {
-//    TopMoversView(viewModel: HomeViewModel())
-//}
